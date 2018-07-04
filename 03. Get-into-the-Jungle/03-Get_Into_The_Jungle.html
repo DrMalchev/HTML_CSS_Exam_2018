@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monkey Login</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="03-Get_Into_The_Jungle.css">
+</head>
+<body>
+<form>
+    <table class="main_table">
+        <tr>
+            <td id="col1"><img src="img/img-01.png" alt=""></td>
+            <td id="col2">
+
+                <h1>Monkey Login</h1>
+                <p class="input_fields">
+                    <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="Email">
+                </p>
+                <p class="input_fields">
+                    <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password">
+                </p>
+
+
+                <style>
+                    /* The container */
+                    .container {
+                        display: block;
+                        position: relative;
+                        padding-left: 55px;
+                        margin-bottom: 12px;
+                        cursor: pointer;
+                        font-size: 15px;
+                        -webkit-user-select: none;
+                        -moz-user-select: none;
+                        -ms-user-select: none;
+                        user-select: none;
+                    }
+
+                    /* Hide the browser's default radio button */
+                    .container input {
+                        position: absolute;
+                        opacity: 0;
+                        cursor: pointer;
+                    }
+
+                    /* Create a custom radio button */
+                    .checkmark {
+                        position: absolute;
+                        top: 0;
+                        left: 15px;
+                        height: 25px;
+                        width: 25px;
+                        background-color: white;
+                        border-radius: 50%;
+                        border: 5px solid #AFAFAF;
+                    }
+
+                    /* On mouse-over, add a grey background color */
+                    .container:hover input ~ .checkmark {
+                        background-color: #ccc;
+                    }
+
+                    /* When the radio button is checked, add a blue background */
+                    .container input:checked ~ .checkmark {
+                        background-color: #2196F3;
+                    }
+
+                    /* Create the indicator (the dot/circle - hidden when not checked) */
+                    .checkmark:after {
+                        content: "";
+                        position: absolute;
+                        display: none;
+                    }
+
+                    /* Show the indicator (dot/circle) when checked */
+                    .container input:checked ~ .checkmark:after {
+                        display: block;
+                    }
+
+                    /* Style the indicator (dot/circle) */
+                    .container .checkmark:after {
+                        top: 9px;
+                        left: 9px;
+                        width: 8px;
+                        height: 8px;
+                        border-radius: 50%;
+                        background: white;
+                    }
+                </style>
+                <section>
+                <p>I am here for:</p>
+                <label class="container">Bananas
+                    <input type="radio"  name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Lady Monkeys
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Fun
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                </section>
+
+
+                <input id="submit" type="submit" value="GET INTO THE JUNGLE">
+                    <section id="sec_sec">
+                <p>Forgot:
+                <span><a href="">Username/ Password?</a></span></p>
+
+                <p>
+                    <span><a href="">Create Your Account</a> &#10142;</span></p>
+                </section>
+            </td>
+
+        </tr>
+
+    </table>
+
+
+</form>
+</body>
+</html>

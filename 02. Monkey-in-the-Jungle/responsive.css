@@ -1,0 +1,71 @@
+@media all and (max-width: 480px) {
+
+    body{
+        padding-top: 50px;
+    }
+
+    header > .logo {
+        margin: 0 0 2rem 0;
+
+    }
+
+    .wrapper > header.special {
+        padding: 20px 10px;
+    }
+
+    .wrapper > header p {
+        margin: 11px;
+    }
+
+    .wrapper.style1 .content {
+        padding: 10px;
+        font-size: 13px;
+    }
+    .wrapper.style2 {
+
+        padding: 1rem;
+    }
+    .wrapper > header {
+        padding: 10px;
+
+    }
+    .wrapper > header p {
+        font-size: 0.5rem;
+        letter-spacing: 0.15rem;
+
+    }
+
+    .gallery {
+        width: 100%;
+        display: block;
+
+    }
+    .gallery > * {
+        width: 100%;
+    }
+
+
+
+    .spotlight > * {
+        width: 100%;
+        text-align: center;
+    }
+    .spotlight .inner {
+        padding: 1rem;
+    }
+
+
+    .wrapper > header h2:after {
+        content: '';
+        position: absolute;
+        margin: auto;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 60%;
+        height: 1px;
+        background-color: rgba(0, 0, 0, 0.125);
+    }
+
+
+}

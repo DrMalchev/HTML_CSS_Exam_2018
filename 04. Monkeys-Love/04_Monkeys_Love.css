@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,900');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+header ul{
+    padding: 0px 50px;
+    text-align: center;
+}
+header ul li a{
+    text-decoration: none;
+    color: #C9725F;
+    font-weight: bold;
+}
+
+#header_bgr {
+    background: url("img/header.png");
+    height: 400px;
+    background-position: -241px -432px;
+    text-align: center;
+    color: white;
+}
+#header_bgr h1{
+    padding-top: 100px;
+}
+#header_bgr p{
+    width: 665px;
+    text-align: center;
+    margin: auto;
+}
+#header_bgr hr{
+    width: 50px;
+    border: 2px solid red;
+    margin-bottom: 30px;
+
+}
+
+#red_sec{
+    background: #F15F3F;
+    height: 300px;
+    margin: 0px auto;
+    color: white;
+    text-align: center;
+}
+
+#red_sec h2{
+    margin: 0px auto;
+    padding: 30px 0px 20px 0px;
+    text-align: center;
+}
+#red_sec hr{
+    width: 50px;
+    border: 2px solid white;
+    margin-bottom: 20px;
+
+}
+
+#red_sec p{
+    width: 665px;
+    text-align: center;
+    margin: auto;
+}
+
+#red_sec button{
+text-align: center;
+    margin: 50px auto;
+    background: #F7F9FB;
+    height: 40px;
+    border-radius: 25px;
+    width: 200px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#red_sec button a{
+    text-decoration: none;
+color: black;
+    font-weight: bold;
+}
+main{
+    margin: auto;
+    text-align: center;
+}
+#what_kind article{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+}
+
+#first_mhr{
+    width: 50px;
+    border: 2px solid red;
+    margin-bottom: 50px;
+
+}
+
+main i{
+    color: red;
+    font-size: 50px;
+}
+
+
+#last_sec article {
+    display: inline-block;
+    width: 28%;
+}
+#last_sec img {
+    display: inline-block;
+    width: 90%;
+    border: 2px solid red;
+}
+
+.second_mhr{
+
+    border: 2px solid red;
+margin: -3px;
+}
+
+footer p{
+    text-align: center;
+}
+footer span{
+    color: red;
+}
+
+.third_mhr{
+
+    border: 2px solid red;
+    margin: -5px;
+}
+
+#what_kind p{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

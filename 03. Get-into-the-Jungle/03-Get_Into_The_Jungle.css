@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body{
+    font-family: Poppins, sans-serif;
+    background: #a26a5d;
+    background: linear-gradient(90deg,#a26a5d 0%, #f2dfbd 70%);
+
+
+
+}
+
+form{
+    background: white;
+    border-radius: 10px;
+    margin: 50px;
+
+
+}
+h1{
+    padding-bottom: 30px;
+}
+table{
+    margin: auto;
+    padding: 50px;
+}
+#col1{
+    width: 50%;
+}
+#col2{
+    vertical-align: top;
+    width: 50%;
+}
+
+label{
+    color: #AFAFAF;
+}
+
+h1{
+    text-align: center;
+}
+
+.input_fields{
+     text-align: center;
+
+ }
+
+.input_fields input{
+    width:60%;
+    padding: 10px 50px;
+    border-radius: 25px;
+    border: 1px solid #E6E6E6;
+background: #E6E6E6;
+}
+
+i{
+    position: relative;
+    left: 40px;
+    font-size: 10px;
+}
+
+section{
+    padding-left: 50px;
+}
+
+#submit
+{
+text-align: center;
+    margin: 15px 0px 0px 45px;
+    width: 85%;
+    padding: 10px 70px;
+    border-radius: 25px;
+    border: 1px solid #8F6B53;
+    background: #8F6B53;
+    color: white;
+}
+
+#sec_sec{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#sec_sec p{
+     font-size: 15px;
+    padding-bottom: 50px;
+
+ }
+#sec_sec a{
+    color: black;
+
+}
+
+tr{
+    margin-top: 50px;
+}
